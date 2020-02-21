@@ -1,3 +1,2 @@
 User-agent: *
-
-sitemap: https://minimal-blog.lekoarts.de/sitemap.xml
+Disallow: /

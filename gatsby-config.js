@@ -16,6 +16,7 @@ module.exports = {
             slug: `/about`,
           },
         ],
+        mdx: false,
       },
     },
     `gatsby-plugin-netlify`,

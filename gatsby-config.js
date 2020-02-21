@@ -25,6 +25,13 @@ module.exports = {
       options: {
         gatsbyRemarkPlugins: [
           {
+            resolve: "gatsby-mdx-tts",
+            options: {
+              awsRegion: "eu-central-1",
+              defaultVoiceId: "Justin",
+            }
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 960,
@@ -46,4 +53,4 @@ module.exports = {
       },
     },
   ],
-}
+};

@@ -6,18 +6,27 @@
   "author": "Florian Gyger <info@floriangyger.ch>",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
     "develop": "gatsby develop -H 0.0.0.0",
     "start": "npm run develop",
-    "serve": "gatsby serve -H 0.0.0.0"
+    "build": "gatsby build",
+    "serve": "gatsby serve -H 0.0.0.0",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-minimal-blog": "^2.5.2",
-    "gatsby": "^2.24.57",
-    "gatsby-mdx-tts": "0.0.12",
-    "gatsby-plugin-netlify": "^2.3.14",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "@mdx-js/react": "^2.3.0",
+    "gatsby": "^5.8.1",
+    "gatsby-mdx-tts": "^1.0.0",
+    "gatsby-plugin-mdx": "^5.8.0",
+    "gatsby-plugin-netlify": "^5.1.0",
+    "gatsby-source-filesystem": "^5.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.4"
+  }
 }

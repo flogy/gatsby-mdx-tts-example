@@ -10,6 +10,6 @@ The [MIT License](LICENSE)
 
 ## Credits
 
-The _[gatsby-mdx-tts](https://github.com/flogy/gatsby-mdx-tts)_ plugin used by this example is maintained and sponsored by the Swiss web and mobile app development company [Florian Gyger Software](https://floriangyger.ch).
+The _[gatsby-mdx-tts](https://github.com/flogy/gatsby-mdx-tts)_ plugin used by this example is maintained and sponsored by the Swiss web and mobile app development company [Florian Gyger Software GmbH](https://floriangyger.ch).
 
 If this library saved you some time and money please consider [sponsoring me](https://github.com/sponsors/flogy), so I can build more libraries for free and actively maintain them for you. Thank you 🙏

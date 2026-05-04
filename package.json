@@ -3,7 +3,7 @@
   "name": "gatsby-mdx-tts-example",
   "description": "Example of the gatsby-mdx-tts plugin, which adds speech output to a Gatsby site using Amazon Polly.",
   "version": "0.0.1",
-  "author": "Florian Gyger <info@floriangyger.ch>",
+  "author": "Florian Gyger Software GmbH <info@floriangyger.ch>",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop -H 0.0.0.0",
